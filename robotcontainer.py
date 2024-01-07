@@ -73,7 +73,7 @@ class RobotContainer:
             ),
         )
 
-        pathsPath = os.path.join(wpilib.getDeployDirectory(), "pathplanner", "autos") #as of right now, it is necessary to move the deploy folder into .venv/scripts or .venv/bin
+        pathsPath = os.path.join(wpilib.getDeployDirectory(), "pathplanner", "autos")
         for file in os.listdir(pathsPath):
             relevantName = file.split(".")[0]
             auton = PathPlannerAuto(relevantName)

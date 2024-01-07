@@ -16,7 +16,7 @@
 
 ### Python
 
-[3.10+ amd64](https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe)
+[3.10+ amd64](https://www.python.org/downloads/release/python-31013/)
 
 ### VS Code
 
